@@ -1,0 +1,12 @@
+{
+    //Worker名称，需要修改成你自己的Worker名称
+    "name": "wallpaper-api-worker",
+    "compatibility_date": "2026-01-20",
+    "main": "worker.js",
+    "vars": {
+        //必填项（1个，不可缺失）
+        "WORKFLOW_ID": "", //你的工作流ID（字符串类型，替换为实际值）
+        //可选项（1个）
+        "ACCESS_TOKEN": "" //你的访问令牌（字符串类型，替换为实际值。如果为空字符串，则每次请求时会自动从绑定的服务获取新的访问令牌。）
+    }
+}
