@@ -1,5 +1,5 @@
 {
-    "name": "wallpaper-api",
+    "name": "api-v2-code",
     "compatibility_date": "2026-04-21",
     "main": "worker.js"
 }
